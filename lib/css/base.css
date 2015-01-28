@@ -1,0 +1,157 @@
+/* roboto font designed by Christian Robertson */
+
+@font-face {
+  font-family: roboto;
+  src: url('../fonts/Roboto-Regular-webfont.eot') format('eot'), url('../fonts/Roboto-Regular-webfont.woff') format('woff'), url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'), url('../fonts/Roboto-Regular-webfont.svg') format('svg');
+}
+
+@font-face {
+  font-family: roboto_thin;
+  src: url('../fonts/Roboto-Thin-webfont.eot') format('eot'), url('../fonts/Roboto-Thin-webfont.woff') format('woff'), url('../fonts/Roboto-Thin-webfont.ttf') format('truetype'), url('../fonts/Roboto-Thin-webfont.svg') format('svg');
+}
+
+@font-face {
+  font-family: roboto;
+  font-weight: bold;
+  src: url('../fonts/Roboto-Bold-webfont.eot') format('eot'), url('../fonts/Roboto-Bold-webfont.woff') format('woff'), url('../fonts/Roboto-Bold-webfont.ttf') format('truetype'), url('../fonts/Roboto-Bold-webfont.svg') format('svg');
+}
+
+@font-face {
+  font-family: roboto_light;
+  src: url('../fonts/Roboto-Light-webfont.eot') format('eot'), url('../fonts/Roboto-Light-webfont.woff') format('woff'), url('../fonts/Roboto-Light-webfont.ttf') format('truetype'), url('../fonts/Roboto-Light-webfont.svg') format('svg');
+}
+
+@font-face {
+  font-family: roboto;
+  font-style: italic;
+  src: url('../fonts/Roboto-Italic-webfont.eot') format('eot'), url('../fonts/Roboto-Italic-webfont.woff') format('woff'), url('../fonts/Roboto-Italic-webfont.ttf') format('truetype'), url('../fonts/Roboto-Italic-webfont.svg') format('svg');
+}
+
+/* page elements */
+
+a {
+	text-decoration: none;
+	color: #06f;
+	font-weight: bold;
+}
+
+a img {
+	border: 0;
+}
+
+.bigRule {
+	margin: 25px 10px;
+    border: 0;
+    height: 1px;
+    background: #7F7F7F;
+}
+
+.smallRule {
+	margin: 10px 0px;
+    border: 0;
+    height: 1px;
+    background: #7F7F7F;
+}
+
+.figureLeft {
+	float: left;
+	padding: 0 10px 0 0;
+}
+
+.figureRight {
+	float: right;
+	padding: 0 0 0 10px;
+}
+
+.figureCenter {
+	text-align: center;
+	padding: 0 0 0 10px;
+}
+
+.video-container {
+  margin: 1em 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video-container.video-container__youtube {
+  padding-top: 30px;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* font styles */
+
+.textbutton {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 0 16px;
+}
+
+.textLink {
+	font-family: roboto, calibri, sans-serif;
+	font-weight: bold;
+	padding: 0 0.2em;
+}
+
+.title_large {
+	font-family: roboto, calibri, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.title_normal {
+	font-family: roboto, calibri, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.text_vvlarge {
+	font-family: roboto, calibri, sans-serif;
+	font-size: 30px;
+	line-height: 1.5em;
+}
+
+.text_vlarge {
+	font-family: roboto, calibri, sans-serif;
+	font-size: 24px;
+	line-height: 1.5em;
+}
+
+.text_large {
+	font-family: roboto, calibri, sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+.text_normal {
+	font-family: roboto, calibri, sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+.text_small {
+	font-family: roboto, calibri, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+.text_vsmall {
+	font-family: roboto, calibri, sans-serif;
+	font-size: 11px;
+	line-height: 1.5em;
+}
+
+.text_vvsmall {
+	font-family: roboto, calibri, sans-serif;
+	font-size: 9px;
+	line-height: 1.5em;
+}
+

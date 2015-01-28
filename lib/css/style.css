@@ -1,0 +1,190 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	border: 0;
+	margin: 0;
+	background-color:  #222;;
+}
+
+/* div styles */
+
+#contentWrap {
+	padding: 0 30px;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+/* sidebar */
+
+#sidebar {
+background-color:#fff;
+}
+
+#navigation {
+	text-align: right;
+	padding: 0px 10px 0px 0px;
+}
+
+#navigation2 {
+	text-align: right;
+	padding: 0px 10px 0px 0px;
+}
+
+#socialLinks {
+	margin: 0 auto;
+}
+
+/* semantic elements */
+
+header {
+	font-family: roboto_thin;
+	text-align: center;
+	color: white;
+	padding: 30px 10px 10px 10px;
+}
+
+article {
+	border-radius: 15px;
+	background-color: #333;
+	font-family: roboto;
+	line-height: 1.5em;
+	color: white;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+/* font styles */
+
+.logoFont {
+	font-family: roboto_thin, calibri, sans-serif;
+	font-size: 37px;
+	color: black;
+}
+
+.mainlink {
+	font-family: roboto_thin, calibri, sans-serif;
+	font-size: 24px;
+	line-height: 1.4em;
+	color: black;
+}
+
+.smalllink {
+	font-family: roboto_light, calibri, sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: black;
+}
+
+#contactTitle {
+	font-family: roboto, calibri, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: black;
+}
+
+/* device-specific views */
+
+@media all and (max-width: 799px) {
+	#logo {
+		padding: 10px 20px 5px 20px;
+	}
+	
+	#navigation {
+		padding: 0px 5px 5px 5px;
+	}
+	
+	#navigation2 {
+		padding: 0px 5px 5px 5px;
+	}
+	
+	.mainlink {
+		padding: 0 5px;
+		font-size: 20px;
+	}
+	
+	.smalllink {
+		padding: 0 3px;
+		font-size: 12px;
+	}
+	
+	#contact {
+		display: none;
+	}
+}
+
+@media all and (min-width: 800px) {
+	#contentWrap {
+		height: 100%;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	#sidebar {
+		height: 100%;
+		overflow: hidden; 
+		float: left;
+	}
+	
+	#logo {
+		padding: 20px 15px 0px 15px;
+	}
+	
+	#logo1, #logo2, .mainlink, .smalllink{
+		display: block;
+	}
+	
+	#logo1 {
+		letter-spacing: 0px;
+	}
+
+	#logo2 {
+		letter-spacing: 1px;
+	}
+	
+	#contact {
+		position: absolute;
+		bottom: 0;
+		padding-left: 7px;
+		padding-bottom: 7px;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	header {
+		font-size: 42px;
+	}
+	
+	subheader {
+	max-width: 800px;
+		font-size: 19px;
+	}	
+
+	article {
+		max-width: 800px;
+		font-size: 17px;
+	}	
+}
+
+@media all and (max-width: 1199px) {
+	header {
+		font-size: 36px;
+	}
+	
+	subheader {
+	max-width: 800px;
+		font-size: 17px;
+	}	
+
+	article {
+		max-width: 600px;
+		font-size: 15px;
+	}
+}
